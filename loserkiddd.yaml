@@ -1,0 +1,14 @@
+proxies:
+- name: TRojan-ws1
+  server: mobilemaps-pa.googleapis.com
+  port: 443
+  type: trojan
+  password: vvip-loserkiddd
+  network: ws
+  sni: mobilemaps-pa.googleapis.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+  headers:
+    Host: vvip-loserkiddd.xxken.xyz
